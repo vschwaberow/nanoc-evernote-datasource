@@ -6,6 +6,8 @@ A `Nanoc::DataSource` for loading site data items from an [Evernote][evernote] n
 
 - Loads Evernote notes from a specified notebook to create Nanoc Items.
 
+- Does very simple Nokogiri XML conversion to output HTML.
+
 ## RubyGems dependencies 
 
 - [Evernote Ruby SDK][evernote-ruby-sdk], the Evernote API for Ruby:
@@ -14,11 +16,11 @@ A `Nanoc::DataSource` for loading site data items from an [Evernote][evernote] n
 
 ## Usage
 
-Copy the file `lib/evernote.rb` into your site `lib` folder.    
+Copy the file `lib/nanoc/data_sources/evernote_thrift.rb` into your site `lib/nanoc/data_sources` folder.    
 
 ## Open Issues
 
-- Conversion of Evernote XML to yield output.
+- Conversion has to be improved.
 
 ## Configuration
 
